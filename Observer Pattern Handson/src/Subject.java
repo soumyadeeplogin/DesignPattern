@@ -15,6 +15,7 @@ public class Subject {
 	
 	public void attach(Observer observer) {
 		observers.add(observer);
+		System.out.println(observer);
 	}
 	
 	public void notifyAllObservers(){
